@@ -5,6 +5,7 @@ import Button from '@/components/Button';
 import { useState } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
 
+
 const navLinks = [
     { label: "Home", href: "#" },
     { label: "Features", href: "#features" },
@@ -17,6 +18,7 @@ export default function Navbar() {
    
     return (
         <>
+        
         <section className="py-4 lg:py-8 fixed w-full top-0 z-50">
             <div className="container max-w-5xl">
                 <div className=' border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur '>
@@ -63,8 +65,9 @@ export default function Navbar() {
 
                 </div>
             </div>
-            
+           
         </section>
+        
         <div className='pb-[86px] md:pb-[98px] lg:pb[130px]'></div>
         </>
     );

@@ -8,8 +8,10 @@ import Faqs from "@/sections/Faqs";
 import CallToAction from "@/sections/CallToAction";
 import Footer from "@/sections/Footer";
 
+
 export default function Home() {
     return <>
+    
        <Navbar/>
        <Hero/>
        <LogoTicker/>
@@ -19,5 +21,6 @@ export default function Home() {
        <Faqs/>
        <CallToAction/>
        <Footer/>
+       
     </>
 }
